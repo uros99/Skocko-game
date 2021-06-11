@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="skocko-igra.js"></script>
+    <link rel="stylesheet" href="skocko-igra.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <table class="talon" id="talonGame">
+                    <tr class="Row1">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row2">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row3">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row4">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row5">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row6">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row7">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-1">
+                <table class="arrows">
+                    <tr>
+                        <td>-></td>
+                    </tr>
+                    <tr>
+                        <td>-></td>
+                    </tr>
+                    <tr>
+                        <td>-></td>
+                    </tr>
+                    <tr>
+                        <td>-></td>
+                    </tr>
+                    <tr>
+                        <td>-></td>
+                    </tr>
+                    <tr>
+                        <td>-></td>
+                    </tr>
+                    <tr>
+                        <td>-></td>
+                    </tr>                    
+                </table>
+            </div>
+            <div class="col-md-3">
+                <table class="currResults" id="resultGame">
+                    <tr class="Row1">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row2">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row3">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row4">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row5">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row6">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                    <tr class="Row7">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-5">
+                <form action="">
+                    <table class="table">
+                        <tr>
+                            <td><input type="button" value="Nova igra" id="newGame"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Start" id="start"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="time">
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2 id="turn">Player One Turn</h2>
+                            </td> 
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <table class="talon" id="finalResult">
+                    <tr class="Row1">
+                        <td class="Col1"></td>
+                        <td class="Col2"></td>
+                        <td class="Col3"></td>
+                        <td class="Col4"></td>
+                    </tr>
+                </table>>
+            </div>
+            <div class="col-md-1">
+                &nbsp;
+            </div>
+            <div class="col-md-5">
+                <table class="currResults">
+                    <tr>
+                        <td><img class="image" id="skocko" src="skocko-dodatno/skocko.png" alt=""></td>
+                        <td><img class="image" id="pik" src="skocko-dodatno/pik.png" alt=""></td>
+                        <td><img class="image" id="tref" src="skocko-dodatno/tref.png" alt=""></td>
+                        <td><img class="image" id="herc" src="skocko-dodatno/herc.png" alt=""></td>
+                        <td><img class="image" id="karo" src="skocko-dodatno/karo.png" alt=""></td>
+                        <td><img class="image" id="zvezda" src="skocko-dodatno/zvezda.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(skocko-dodatno/background.jpg);
+    background-repeat: no-repeat;
+}
+.col{
+    padding: 0;
+    margin: 0;
+}
+
+.col-md-1{
+    padding-left: 0;
+}
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+
+.talon{ 
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+.talon td{
+    width: 60px;
+    height: 60px;
+    background-color:rgb(100, 173, 197);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.currResults{
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+.currResults td{
+    width: 60px;
+    height: 60px;
+    background-color:gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+td img{
+    width: 40px;
+    height: 40px;
+}
+
+.arrows{
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+.arrows td{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color : rgb(100, 173, 197);
+    text-align: center;
+}
+
+.time{
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.countDown{
+    font-size: 40px;
+}
+
+.playerTwoInput{
+    display: none;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="skocko-podesavanja.js"></script>
+    <link rel="stylesheet" href="skocko-igra.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 playerOneInput">
+                <div style="text-align: left;">
+                    <h1>Player One</h1>
+                    <h4>Pick your combination</h4>
+                    <table id="playerOne" class='talon'>
+                        <tr>
+                            <td class="1"></td>
+                            <td class="2"></td>
+                            <td class="3"></td>
+                            <td class="4"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6 playerTwoInput" style="float : right;">
+                <div style="float: left;">
+                    <h2>Player Two</h2>
+                    <h4>Pick your combination</h4>
+                    <table id="playerTwo" class="talon">
+                        <tr>
+                            <td class="1"></td>
+                            <td class="2"></td>
+                            <td class="3"></td>
+                            <td class="4"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                &nbsp;
+            </div>
+            <div class="col-md-6">
+                <table class="currResults">
+                    <tr>
+                        <td><img class="image" id="skocko" src="skocko-dodatno/skocko.png" alt=""></td>
+                        <td><img class="image" id="pik" src="skocko-dodatno/pik.png" alt=""></td>
+                        <td><img class="image" id="tref" src="skocko-dodatno/tref.png" alt=""></td>
+                        <td><img class="image" id="herc" src="skocko-dodatno/herc.png" alt=""></td>
+                        <td><img class="image" id="karo" src="skocko-dodatno/karo.png" alt=""></td>
+                        <td><img class="image" id="zvezda" src="skocko-dodatno/zvezda.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
